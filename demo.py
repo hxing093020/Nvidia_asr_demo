@@ -1,6 +1,5 @@
- 
+from pathlib import Path 
 import streamlit as st
-
 
 
 wavFiles = []
@@ -57,21 +56,17 @@ FT.append('we\'re gonna come over here and there it is scale')
 FT.append('i know what that is i just don\'t know what items you wanted')
 
 st.set_page_config(layout='wide')
+
+st.markdown("<h3 style='text-align: center;'>Introduction</h3>", unsafe_allow_html=True)
+def read_markdown_file(markdown_file):
+    return Path(markdown_file).read_text()
+intro_markdown = read_markdown_file("introduction.md")
+st.markdown(intro_markdown, unsafe_allow_html=True)
+
+st.markdown('---')
 col1, col2, col3, col4 = st.columns(4)
 
-st.markdown(
-    """
-    <style>
-    textarea {
-        font-size: 3rem !important;
-    }
-    input {
-        font-size: 1rem !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+
 col1.markdown("<h4 style='text-align: center;'>Audio</h4>", unsafe_allow_html=True)
 col2.markdown("<h4 style='text-align: center;'>Ground Truth</h4>", unsafe_allow_html=True)
 col3.markdown("<h4 style='text-align: center;'>Pre_trained</h4>", unsafe_allow_html=True)
