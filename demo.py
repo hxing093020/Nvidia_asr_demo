@@ -24,7 +24,7 @@ GT.append('the hot and spicy mcchickens')
 PT = []
 PT.append(':red[it\'ll be a good bus store] and drive')
 PT.append("always forgive :red[their] enemies nothing annoys them so much")
-PT.append(':red[to day] only about eleven per cent of federal it :red[t] systems are running in the cloud')
+PT.append(':red[to day] only about eleven :red[per cent] of federal it :red[t] systems are running in the cloud')
 PT.append('even nuclear weapons are only about :red[oneer] efficient chemical weapons are a tiny fraction of a :red[perc] in terms of their efficiency')
 PT.append('we\'re :red[going to] come over here and there it is scale')
 PT.append('would you like :red[frem chergen]')
