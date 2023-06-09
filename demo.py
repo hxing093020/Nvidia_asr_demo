@@ -67,10 +67,10 @@ st.markdown('---')
 col1, col2, col3, col4 = st.columns(4)
 
 
-col1.markdown("<h4 style='text-align: center;'>Audio</h4>", unsafe_allow_html=True)
-col2.markdown("<h4 style='text-align: center;'>Ground Truth</h4>", unsafe_allow_html=True)
-col3.markdown("<h4 style='text-align: center;'>Nvidia Pre-trained Model\n\n (WER=7.8%)</h4>", unsafe_allow_html=True)
-col4.markdown("<h4 style='text-align: center;'>Fine-tuned with Appen Dataset \n\n (WER=6.5%)</h4>", unsafe_allow_html=True)
+col1.markdown("<h5 style='text-align: center;'>Audio</h5>", unsafe_allow_html=True)
+col2.markdown("<h5 style='text-align: center;'>Ground Truth</h5>", unsafe_allow_html=True)
+col3.markdown("<h5 style='text-align: center;'>Nvidia Pre-trained Model\n\n (WER=7.8%)</h5>", unsafe_allow_html=True)
+col4.markdown("<h5 style='text-align: center;'>Fine-tuned with Appen Dataset \n\n (WER=6.5%)</h5>", unsafe_allow_html=True)
 st.markdown("___")
 
 for ind in range(len(wavFiles)):
