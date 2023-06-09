@@ -2,4 +2,4 @@
 
 
 
-**Appen Fine_tuned model**: The pre-trained whisper model was fine-tuned in African American English (AAE), Chinese, and Spanish. The training data utilized for this process was sourced from Appen OTS datasets or other open-source datasets.
+**Appen Fine_tuned model**: The pre-trained whisper model was fine-tuned in African American English (AAE), Singapore English (SGE), Chinese, and Spanish. The training data utilized for this process was sourced from Appen OTS datasets or other open-source datasets.
