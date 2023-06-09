@@ -44,7 +44,7 @@ FT.append('i mean they got all :red[is] you know they do not know they do not kn
 FT.append('huh, the principal or the teacher, the teacher, oh, we used to talk a lot, and one  one of :red[the my] teachers you know')
 FT.append('you know jumps up in the window on the screen, runs back down you know, runs all the time')
 FT.append('what about the best teacher you ever had can you remember who that would be')
-FT.append('美国前参议员米切尔和谈主')
+FT.append('美国前参议员米切尔和谈主席')
 FT.append('阿拉伯首脑会议在即')
 FT.append('大:red[致上]代表:red[论]为在北约东扩的情况下必须向所有国家提供平等的安全保障')
 FT.append('哥伦比亚谴责美干涉其内政')
