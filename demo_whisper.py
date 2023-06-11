@@ -140,6 +140,6 @@ for ind in range(len(wavFiles)):
     col2.markdown(GT[ind], unsafe_allow_html=True)
     col3.markdown(PT[ind], unsafe_allow_html=True)
     col4.markdown(FT[ind], unsafe_allow_html=True)
-    col5.markdown(LAN[ind], unsafe_allow_html=True)
+    col5.markdown(f"<p style='text-align: center;'>{LAN[ind]}</p>", unsafe_allow_html=True)
     st.markdown("---")
 
